@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"All Autocomplete",
+		"Anaconda",
+		"BracketHighlighter",
+		"Djaneiro",
+		"Emmet",
+		"Markdown Preview",
+		"Material Theme",
+		"Package Control",
+		"Predawn",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeREPL"
+	]
+}

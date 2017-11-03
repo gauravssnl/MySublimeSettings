@@ -1,0 +1,96 @@
+{
+	"allow_project_restoration": true,
+	"automatic_save": false,
+	"autoscroll_snap_range": 1,
+	"autoscroll_to_bottom": true,
+	"build_command": "$sourcepath $classpath $d \"$file\" -Xlint:all",
+	"build_location": "$project_dir",
+	"build_log_delay": 0.05,
+	"build_log_target_group":
+	[
+	],
+	"build_output_location": "$project_dir$sepbin",
+	"class_name_selector": "entity.name.type.class.java",
+	"debug_mode": false,
+	"declarations_selector": "@PackageDeclaration|>ImportDeclaration>|>ImportDeclaration",
+	"dependencies":
+	[
+	],
+	"dependencies_path": "$project_dir",
+	"enable_actions_history": true,
+	"encoding_handle": "replace",
+	"import_declaration_selector": "@ImportDeclaration",
+	"import_package_name_selector": ">ImportDeclaration>QualifiedName",
+	"java_executables":
+	{
+		"build": "javac",
+		"run": "java",
+		"version": "java"
+	},
+	"java_extensions":
+	[
+		".java"
+	],
+	"java_source_selector": "source.java",
+	"java_version_match": "(\\d+.\\d+.\\d+)_?([0-9a-zA-Z]+)?",
+	"javatar_gp": 0,
+	"jdk_installation":
+	{
+		"all":
+		[
+			"/usr/java/jdk1.8.0_131"
+		],
+		"linux":
+		[
+			"/usr/java/jdk1.8.0_131"
+		],
+		"osx":
+		[
+			"/Library/Java/JavaVirtualMachines"
+		],
+		"windows":
+		[
+			"C:\\Program Files\\Java",
+			"C:\\Program Files (x86)\\Java"
+		]
+	},
+	"jdk_version":
+	{
+		"JDK1.8.0u131":
+		{
+			"path": "/usr/java/jdk1.8.0_131/bin",
+			"update": "131",
+			"version": "1.8.0"
+		},
+		"use": ""
+	},
+	"maximum_waiting_time": 15,
+	"message_id": 20,
+	"method_replacement": "\\(.*?\\)(?![,\\)])",
+	"output_console_target_group":
+	[
+	],
+	"package_channel": "stable",
+	"package_class_match": "([a-zA-Z_$][a-zA-Z\\d_$,<:]*)$",
+	"package_declaration_selector": "@PackageDeclaration",
+	"package_match": "^([a-zA-Z_\\-$][a-zA-Z\\d_\\-$]*\\.)*",
+	"package_name_match": "^([a-zA-Z_\\-$][a-zA-Z\\d_\\-$]*\\.)*[a-zA-Z_$][a-zA-Z\\d_$]*$",
+	"package_name_selector": "storage.modifier.package.java",
+	"parallel_build": 2,
+	"program_arguments": "",
+	"project_data":
+	{
+		"2": null
+	},
+	"project_update_interval": 60000,
+	"run_command": "$classpath $full_class_path $program_arguments",
+	"run_location": "$project_dir",
+	"send_stats_and_usages": true,
+	"shell_refresh_interval": 0.01,
+	"show_hidden_files_and_directories": false,
+	"show_package_path": true,
+	"source_folder": "",
+	"special_package_name_match": "^([a-zA-Z_\\-$][a-zA-Z\\d_\\-$]*\\.)*[a-zA-Z_$][a-zA-Z\\d_$,<:]*$",
+	"status_delay": 5000,
+	"type_selectors": "@VariableType|@StaticClassOrInterfaceType|@CatchType"
+}
